@@ -1,0 +1,815 @@
+img {
+    max-width: 100%;
+}
+
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+ol,
+ul,
+li,
+figcaption,
+textarea,
+input {
+    font-family: arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mxWidth {
+    max-width: 1050px;
+    margin: auto;
+}
+
+/* header css */
+
+.header {
+    background: black;
+    padding: 17px;
+}
+
+.leftHead {}
+
+.logoHead {
+    float: left;
+}
+
+.logoHead a {}
+
+.logoHead a img {
+    width: 110px;
+}
+
+.inputHead {}
+
+.inputHead input {
+    margin-left: 21px;
+    padding: 6px;
+    width: 211px;
+    border-radius: 4px 0 0 4px;
+    color: #0000007a;
+    border: none;
+    background: #fffffffa;
+}
+
+.inputHead button {
+    margin: ;
+    padding: 6px;
+    border-radius: 0 4px 4px 0;
+    border: none;
+    margin-left: -4px;
+    color: #00000054;
+    background: #fffffffa;
+}
+
+.inputHead button span {}
+
+.inputHead button span i {}
+
+.rightHead {
+    text-align: right;
+}
+
+.rightHead span {
+    position: relative;
+    top: 4px;
+    left: -12px;
+}
+
+.rightHead span i {
+    color: #ffffff80;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.rightHead a {
+    color: #fffffff7;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.rightHead button {
+    padding: 4px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.rightHead a:hover {
+    color: #02ba02;
+}
+
+.rightHead span i:hover {
+    color: #ffffff5c;
+}
+
+/* header 2 css */
+
+.header2 {
+    background: white;
+}
+
+.header2 ul {
+    margin: 0;
+}
+
+.header2 ul li {
+    display: inline-block;
+    padding: 8px;
+}
+
+.header2 ul li a {
+    font-size: 13px;
+    color: #000000c7;
+}
+
+.header2 ul li a:hover {
+    color: #00698c;
+}
+
+/* banner css */
+
+.bannerSection {
+}
+
+.mycaptionBanner {
+    height: 100%;
+}
+
+.leftBannerCaption {
+    text-align: left;
+    margin-left: -74px;
+    width: 300px;
+}
+
+.leftBannerCaption img {
+    float: left;
+}
+
+.leftBannerCaption h5 {
+    margin-left: 45px;
+    font-weight: 700;
+    width: 165px;
+}
+
+.leftBannerCaption p {
+    margin-left: 45px;
+    width: 118px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.bannerTextDiv {
+    margin-top: 58px;
+    width: 552px;
+    position: relative;
+    left: 280px;
+}
+
+.bannerTextDiv h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.bannerTextDiv h4 {
+    font-size: 20px;
+    margin-bottom: 26px;
+}
+
+.inputBannerDiv {
+    background: #00000063;
+    width: 511px;
+    margin: auto;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.inputBannerDiv input {
+    padding: 13px;
+    width: 340px;
+    border-radius: 4px;
+    color: #0000007a;
+    border: none;
+    background: #ffffffd4;
+}
+
+.inputBannerDiv button {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    padding-right: 26px;
+    padding-left: 26px;
+    margin-top: -4px;
+}
+
+/* trending css */
+
+.trendingSection {
+    background: #eeeeee;
+}
+
+.trendingHead {
+    text-align: center;
+}
+
+.trendingHead h2 {
+    font-weight: 800;
+    font-size: 22px;
+    margin: 0;
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+
+.trendingHead h5 {
+    font-size: 17px;
+    padding-bottom: 45px;
+}
+
+.mytrendCard {
+    width: 90%;
+    border-radius: 0px;
+    border: 1px solid #00000021;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.imgTrendingDiv {
+    text-align: center;
+    padding: 7px;
+    padding-top: 60px;
+}
+
+.imgTrendingDiv img {
+    width: 100%;
+}
+
+.hidTrendDiv {
+    display: block;
+    text-align: center;
+    position: absolute;
+    bottom: -70px;
+    width: 100%;
+    margin: auto;
+    background: white;
+    transition: .5s;
+}
+
+.hidTrendDiv img {
+    padding: 5px;
+}
+
+.trendCardhead {
+    position: absolute;
+    height: 310px;
+    width: 100%;
+    transition: .5s;
+}
+
+.trendCardhead h2 {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.trendCardhead p {
+    font-size: 15px;
+    padding: 10px;
+    margin-top: -27px;
+    color: #00000057;
+    margin-bottom: 0;
+}
+
+.allcardTrend {
+    width: 88%;
+    margin: auto;
+    margin-left: 94px;
+}
+
+.alltrend {
+    background: none repeat scroll 0 0 #f7f7f7;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    top: -42px;
+    z-index: 999999;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 0px;
+    padding-bottom: 70px;
+}
+
+.card.mytrendCard:hover .hidTrendDiv {
+    bottom: 0;
+}
+
+.card.mytrendCard:hover .trendCardhead {
+    background: #ffffff96;
+}
+
+.card.mytrendCard:hover .trendCardhead h2 {
+    color: #0bb70b;
+}
+
+.alltrend hr {
+    height: 3px;
+    background: #fff;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+/* gigs css */
+
+.allGigsCard {
+    padding: 113px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.gigsCard {
+    margin-bottom: 25px;
+}
+
+.highupperGigsCard {
+    height: 32px;
+}
+
+.highupperGigsCard a {
+    padding: 14px;
+    font-size: 12px;
+    line-height: 40px;
+    color: black;
+    margin-right: 25px;
+}
+
+.highupperGigsCard a span {
+    color: #00000061;
+}
+
+.highupperGigsCard span {}
+
+.highupperGigsCard p {
+    float: right;
+    line-height: 40px;
+    margin-right: 10px;
+    font-size: 12px;
+    color: #00000070;
+}
+
+.shakingGigsCardDiv {
+    text-align: center;
+    position: relative;
+    top: -32px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.shakingGigsCardDiv img {
+    width: 100%;
+    padding: 5px;
+}
+
+.shakingGigsCardDiv a {
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+    text-align: left;
+    padding-top: 0px;
+    display: block;
+}
+
+.shakingGigsCardDiv p {
+    text-align: center;
+    background: #f433a9;
+    color: white;
+    width: 60px;
+    font-size: 11px;
+    padding: 1px;
+    margin-left: 10px;
+    border-radius: 4px;
+    float: left;
+    position: absolute;
+}
+
+.shakingGigsCardDiv span {
+    float: left;
+    margin-left: -40px;
+    background: #ffa500a6;
+    border-radius: 50%;
+    width: 8%;
+    height: 9%;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    position: absolute;
+    font-weight: bold;
+}
+.loveGigsDiv {
+    display: inherit;
+    margin-top: -7px;
+    z-index: 0;
+    background: white;
+}
+
+.loveGigsDiv span {
+    margin-left: 9px;
+}
+
+.loveGigsDiv span i {
+    color: #0003;
+}
+
+.loveGigsDiv p {
+    font-weight: 700;
+    color: #06d006;
+    font-size: 17px;
+}
+
+.loveGigsDiv p span {
+    margin-left: 181px;
+}
+
+.loveGigsDiv p span i {
+    color: #06d006;
+    padding: 3px;
+}
+
+.highupperGigsCard span i {
+    font-size: 11px;
+    color: #ffa50091;
+}
+
+.shakingGigsCardDiv a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+.gigsCard:hover .shakingGigsCardDiv {
+    top: 0;
+}
+
+.trendingHead h2 sub {
+    font-size: 19px;
+}
+
+/* blog css */
+
+.bloghead {}
+
+.rheadBlog {
+    text-align: right;
+    margin-top: -89px;
+    margin-right: 112px;
+    cursor: pointer;
+}
+
+.rheadBlog h4 {
+    font-size: 12px;
+    color: #0000005e;
+}
+
+.rheadBlog h4 span {}
+
+.rheadBlog h4 span i {}
+
+.allBlogCard {
+    padding-top: 53px;
+    padding: 64px;
+}
+
+.myBlogCard {}
+
+.myBlogCard h2 {
+    font-weight: 700;
+    font-size: 18px;
+    padding: 13px;
+    width: 92%;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.myBlogCard h2 a {
+    color: black;
+    font-size: 18px;
+    padding: 0;
+}
+
+.myBlogCard p {
+    padding: 13px;
+    font-size: 16px;
+    color: #00000082;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.myBlogCard a {
+    padding: 13px;
+    padding-top: 8px;
+    font-size: 15px;
+    color: #0abb0a;
+}
+
+.imgBlogCArd {}
+
+.imgBlogCArd img {
+    width: 100%;
+    padding: 13px;
+    margin-top: -12px;
+}
+
+.joinDiv {
+    width: 651px;
+    margin: auto;
+    display: flex;
+    background: none repeat scroll 0 0 #fceac5;
+    padding: 17px;
+}
+
+.imgJoin {}
+
+.imgJoin img {}
+
+.textJoin {}
+
+.textJoin h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 11px;
+}
+
+.textJoin p {
+    font-size: 15px;
+    margin-left: 12px;
+    margin-top: -10px;
+}
+
+.btnJoin {}
+
+.btnJoin a {
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 26px !important;
+    padding-left: 26px !important;
+    padding: 13px;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+
+.myBlogCard h2:hover {
+}
+
+.myBlogCard h2 a:hover {
+    color: #06c406;
+    text-decoration: none;
+}
+
+.myBlogCard a:hover {
+    text-decoration: underline;
+}
+
+/* last div css */
+
+.lastDiv {
+    background: white;
+    margin-top: -42px;
+    border-top: 1px solid #0000001c;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #0000001c;
+}
+
+.allcardLast {
+    padding-top: 73px;
+}
+
+.myCArdLast {
+    text-align: center;
+    border: none;
+}
+
+.imgDivCArdlast {}
+
+.imgDivCArdlast img {}
+
+.textCardLast {}
+
+.textCardLast h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.textCardLast p {
+    padding: 13px;
+    font-size: 16px;
+    color: #00000082;
+    font-weight: 500;
+}
+
+/* footer css */
+
+.footerSection {
+    padding-bottom: 50px;
+}
+
+.listingFooter {}
+
+.listingFooter ul {}
+
+.listingFooter ul li {
+    display: inline-block;
+    padding: 8px;
+    padding-top: 24px;
+}
+
+.listingFooter ul li a {
+    font-size: 14px;
+    color: #00000075;
+}
+
+.secondLineDivFooter {
+    display: flex;
+    padding-left: 29px;
+}
+
+.btnFooter {
+    display: flex;
+    margin-right: 47px;
+}
+
+.btnFooter span {
+    margin-left: -18px;
+    line-height: 39px;
+    color: #0000004a;
+}
+
+.btnFooter span i {font-size: 12px;}
+
+.BtnFooter2 {
+    width: 130px;
+    font-size: 12px;
+    color: #00000070;
+    z-index: 3;
+    background: transparent;
+    padding: 6px;
+}
+
+.BtnFooter2 option {}
+
+.imgSlineFooter {}
+
+.imgSlineFooter img {}
+
+.rightFooter {
+    text-align: right;
+}
+
+.rightFooter ul {}
+
+.rightFooter ul li {
+    display: inline-block;
+}
+
+.rightFooter ul li a {
+    background: #00000073;
+    padding: 7px;
+    color: white;
+    border-radius: 37px;
+    line-height: 82px;
+}
+
+.rightFooter ul li a span {}
+
+.rightFooter ul li a span i {}
+
+.mainFooterDiv {
+    margin-top: -27px;
+}
+
+.mainFooterDiv p {
+    font-size: 13px;
+    color: #0000006e;
+}
+
+
+
+
+.form-control.BtnFooter2:focus {
+    background: transparent;
+  }
+  .listingFooter ul li a:hover {
+    color: #09a809;
+  }
+  .rightFooter ul li a:hover {
+    background: #06bd06;
+  }
+
+
+
+  
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
